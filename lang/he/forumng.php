@@ -87,6 +87,7 @@ $string['beforestartdate'] = 'ניתן רק לקרוא פירסומים בקבו
 $string['beforestartdatecapable'] = 'תלמידים רשאים לצפות בפרסומים בקבוצת־דיון זו,אך לא לשלוח/להגיש עד שעה {$a}.';
 $string['choosefile'] = 'בחרו קובץ';
 $string['clearflag'] = 'הסרת דגל';
+$string['flagpost'] = 'סימון';
 $string['clicktoadd'] = 'הוסיפו זאת';
 $string['collapseall'] = 'כווצו את כל הפרסומים';
 $string['completiondiscussions'] = 'על המשתמש ליצור דיון בקבוצת־דיון:';
