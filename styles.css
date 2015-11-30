@@ -6,21 +6,38 @@
     width:12em;
     float:left;
 }
+.dir-rtl#page-mod-forumng-view #left-column {
+    float:right;
+}
 #page-mod-forumng-view #right-column {
     width:12em;
     float:right;
 }
+.dir-rtl#page-mod-forumng-view #right-column {
+    float:left;
+}
 #page-mod-forumng-view #middle-column.has-right-column {
     margin-right:13em;
 }
+.dir-rtl#page-mod-forumng-view #middle-column.has-right-column {
+    margin-left:13em;
+    margin-right: auto;
+}
 #page-mod-forumng-view #middle-column.has-left-column {
     margin-left:13em;
+}
+.dir-rtl#page-mod-forumng-view #middle-column.has-left-column {
+    margin-right:13em;
+    margin-left: auto;
 }
 #page-mod-forumng-view .block_adminblock select {
     max-width:12em;
 }
 #page-mod-forumng-view #footer {
     clear:left;
+}
+.dir-rtl#page-mod-forumng-view #footer {
+    clear:right;
 }
 /*
 // Icon links
@@ -199,6 +216,11 @@ form.forumng-paste-buttons {
   float:left;
   margin-right:8px;
 }
+.dir-rtl .forumng-subject img {
+    float:right;
+    margin-left:8px;
+    margin-right: auto;
+}
 
 .forumng-divider {
     height:8px;
@@ -290,6 +312,11 @@ div.forumng-flagpost a img {
     margin-right: 5px;
     overflow: hidden;
 }
+.dir-rtl.forumng-startedbyimage {
+    float: right;
+    margin-left: 5px;
+    margin-left: auto;
+}
 
 .forumng-startedbyuser {
     display: inline;
@@ -366,6 +393,9 @@ h2.forumng-author {
 .forumng-pic {
     float:left;
     width:35px;
+}
+.dir-rtl .forumng-pic {
+    float:right;
 }
 .forumng-subject,
 .forumng-info,
@@ -642,6 +672,13 @@ ul.forumng-commands li.forumng-replylink {
     clear: left;
     margin-left: 0;
 }
+.dir-rtl .forumng-iframe#page-mod-forumng-editpost #fitem_id_message .felement.feditor,
+.dir-rtl .forumng-iframe#page-mod-forumng-editpost #fitem_id_subject .felement,
+.dir-rtl .forumng-iframe#page-mod-forumng-editpost #fitem_id_attachments .felement {
+    clear: right;
+    margin-right: 0;
+    margin-left: auto;
+}
 .forumng-iframe#page-mod-forumng-editpost #fitem_id_subject input {
 	max-width: 90%;
 	min-width: 80%;
@@ -651,6 +688,11 @@ ul.forumng-commands li.forumng-replylink {
     clear: left;
     margin-left: 0;
 }
+.dir-rtl .forumng-iframe#page-mod-forumng-editpost #fgroup_id_buttonar .felement {
+    clear: right;
+    margin-right: 0;
+}
+
 .forumng-iframe#page-mod-forumng-editpost #fitem_id_subject .fitemtitle,
 .forumng-iframe#page-mod-forumng-editpost #fitem_id_message .fitemtitle,
 .forumng-iframe#page-mod-forumng-editpost #fitem_id_attachments .fitemtitle {
@@ -658,6 +700,15 @@ ul.forumng-commands li.forumng-replylink {
     text-align: left;
     font-weight: bold;
 }
+
+.dir-rtl .forumng-iframe#page-mod-forumng-editpost #fitem_id_subject .fitemtitle,
+.dir-rtl .forumng-iframe#page-mod-forumng-editpost #fitem_id_message .fitemtitle,
+.dir-rtl .forumng-iframe#page-mod-forumng-editpost #fitem_id_attachments .fitemtitle {
+    margin-right: 0;
+    text-align: right;
+    margin-left: auto;
+}
+
 .mobiletheme.forumng-iframe#page-mod-forumng-editpost #fitem_id_subject .felement,
 .mobiletheme.forumng-iframe#page-mod-forumng-editpost #fitem_id_message .felement.feditor,
 .mobiletheme.forumng-iframe#page-mod-forumng-editpost #fitem_id_attachments .felement,
@@ -900,10 +951,18 @@ form.markread input {
 .forumng-addattachment-file {
     float:left;
 }
+.dir-rtl .forumng-addattachment-file {
+    float:right;
+}
 
 .forumng-addattachment-submit {
     float:left;
     margin-left: 8px;
+}
+.forumng-addattachment-submit {
+    float:right;
+    margin-right: 8px;
+    margin-left: auto;
 }
 
 .forumng-addattachment-max {
@@ -953,8 +1012,14 @@ form.markread input {
 #page-mod-forumng-feature-print-print .forumng-printable-backlink {
     float:left;
 }
+.dir-rtl#page-mod-forumng-feature-print-print .forumng-printable-backlink {
+    float:right;
+}
 #page-mod-forumng-feature-print-print .forumng-printable-date {
     float:right;
+}
+.dir-rtl#page-mod-forumng-feature-print-print .forumng-printable-date {
+    float:left;
 }
 
 #page-mod-forumng-feature-print-print .forumng-donotprint {
@@ -1070,6 +1135,9 @@ padding-top: 1em;
 }
 .forumng-discussion-short td .dselectorcheck {
     float: left;
+}
+.dir-rtl.forumng-discussion-short td .dselectorcheck {
+    float: right;
 }
 
 /*
